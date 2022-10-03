@@ -165,21 +165,23 @@ h5 {
 	background: rgba(89, 59, 140, 0.5);
 	border-radius: 5px;
 	min-height: 52px;
-	/* max-width: 308px; */
 	align-items: center;
+	border: solid 1px #000;
 	padding-left: 13px;
 	width: 100%;
 }
 .value-fi {
+	border: solid 1px #000;
 	padding-right: 5px;
 }
 
 .value-text {
+	border: solid 1px #000;
 	font-family: 'ALS Sector Regular';
 font-style: normal;
 font-weight: 700;
 font-size: 23px;
-line-height: 24px;
+/* line-height: 24px; */
 text-transform: uppercase;
 letter-spacing: 3px;
 
