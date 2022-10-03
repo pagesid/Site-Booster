@@ -178,11 +178,10 @@ h5 {
 font-style: normal;
 font-weight: 700;
 font-size: 23px;
-/* line-height: 24px; */
 text-transform: uppercase;
 letter-spacing: 3px;
-
 color: #FFFFFF;
+padding-top: 5px;
 padding-left: 20px;
 }
 
@@ -230,6 +229,10 @@ letter-spacing: 0.5px;
 }
 
 @media (max-width: 992px) {
+	.value-text {
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
 	.card-box-footer{
 		flex-wrap: wrap;
 		align-items: flex-end;
