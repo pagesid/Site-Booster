@@ -1,3 +1,11 @@
+@font-face {
+	font-family: ALS SectorBold;
+	src: url("../fonts/ALS\ Sector\ Bold\ Bold.ttf");
+}
+@font-face {
+	font-family: ALS Sector Regular;
+	src: url("../fonts/ALS\ Sector\ Regular\ Regular.ttf");
+}
 /*----- ШАПКА ---------------------------------------*/
 .navbar-brand, .footer-brand{
 	display: flex;
