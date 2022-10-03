@@ -1,0 +1,338 @@
+/*----- ШАПКА ---------------------------------------*/
+.navbar-brand, .footer-brand{
+	display: flex;
+	text-decoration: none;
+}
+
+.navbar-title, .footer-title{
+	padding-left: 12px;
+	line-height: 20px;
+	color: #ffff;
+}
+.navbar-title:hover, .footer-title:hover{
+color: #FF5855;
+transition: color 0.15s ease-in-out;
+}
+
+.nav-link{
+font-family: 'ALS Sector Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #FFFFFF;
+pointer-events: none;
+}
+
+@media (max-width: 992px) {
+	.navbar-brand, .footer-brand{
+		padding-bottom: 10px;
+	}
+ }
+@media (max-width: 576px) {
+	.footer-brand{
+		justify-content: center;
+	}
+ }
+
+/*----- КНОПКИ ---------------------------------------*/
+.btn-outline-z:hover{
+	background-color: #FF5855;
+	box-shadow: 2px 2px 10px rgba(255, 88, 85, 0.6);
+}
+
+.btn-outline-z{
+	--bs-btn-color: #5EC7EC;
+	--bs-btn-border-color: #5EC7EC;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #FF5855;
+	border-radius: 5px;
+	
+}
+
+.btn-img1{
+	background: url("../img/btn/1.svg")  no-repeat;
+	padding-left: 20px;
+}
+
+.btn-outline-z img {
+	padding-left: 10px;
+	padding-bottom: 3px;
+}
+
+
+.navbar-perp {
+	background: rgba(31, 2, 66, 0.1);
+backdrop-filter: blur(7.5px);
+}
+
+/*----- background ---------------------------------------*/
+body {
+	background-image: url("../img/Mai.jpg") ;
+	height: 100%;
+	/**порешали с bg-------------*/
+	background-size: cover;
+}
+
+main {
+	padding-top: 175px;
+}
+
+/*----- ЗАГОЛОВКИ ---------------------------------------*/
+h1 {
+	font-family: 'ALS Sector Regular';
+
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 84px;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke: 1px  rgba(94, 199, 236, 1);
+}
+
+h2 {
+	font-family: 'ALS Sector Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 72px;
+color: #FFFFFF;
+}
+
+h3 {
+	font-family: 'ALS Sector Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+	margin-top: 69px;
+	max-width: 550px;
+}
+
+h4 {
+	font-family: 'ALS Sector Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #5EC7EC;
+}
+
+h5 {
+	font-family: 'ALS Sector Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+/*----- АДАПТИВ ЗАГОЛОВКОВ ---------------------------------------*/
+@media (max-width: 576px) {
+	h1{
+	font-size: 55px;
+	line-height: 60px;
+
+	}
+	h2{
+		font-size: 35px;
+		line-height: 40px;
+
+	}
+	h3{
+	font-size: 18px;
+	}
+	h4{
+	font-size: 20px;
+	}
+	h5{
+	font-size: 16px;
+	}
+
+ }
+
+ /*----- ГЛАВНЫЙ БЛОК ---------------------------------------*/
+.card {
+	background: rgba(31, 2, 66, 0.1);
+	backdrop-filter: blur(7.5px);
+	border: solid 0px #000;
+}
+
+.card-value {
+	display: flex;
+	background: rgba(89, 59, 140, 0.5);
+	border-radius: 5px;
+	min-height: 52px;
+	/* max-width: 308px; */
+	align-items: center;
+	padding-left: 13px;
+	width: 100%;
+}
+.value-fi {
+	padding-right: 5px;
+}
+
+.value-text {
+	font-family: 'ALS Sector Regular';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 3px;
+
+color: #FFFFFF;
+padding-left: 20px;
+}
+
+.card-title {
+	font-family: 'ALS Sector Regular';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: 1px;
+color: #FFFFFF;
+padding-top: 10px;
+}
+
+.card-title img{
+	padding-right: 10px;
+}
+
+.card-box-header {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.card-box-footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-sum{
+	font-family: 'ALS Sector Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 160%;
+color: #FFFFFF;
+letter-spacing: 0.5px;
+}
+.sum{
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.box-sum--right{
+	text-align: right;
+}
+
+@media (max-width: 992px) {
+	.card-box-footer{
+		flex-wrap: wrap;
+		align-items: flex-end;
+	}
+
+	.box-sum{
+		flex: 1 1 50%;
+		margin-bottom: 15px;
+	}
+ }
+
+/*----- ОБЩИЕ КЛАССЫ ---------------------------------------*/
+
+.figure {
+	background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(7.5px);
+border-radius: 20px;
+min-width: 150px;
+min-height: 150px;
+
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+.figure-goals {
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(7.5px);
+	border-radius: 20px;
+	justify-content: space-between;
+	display: flex;
+	padding: 18px 20px 0px 20px;
+}
+
+.figure-caption{
+	font-family: 'ALS Sector Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+/*----- Security Блок ---------------------------------------*/
+.figure-square{
+	max-width: 346px;
+	max-height: 163px;
+	margin:  0 auto;
+}
+
+.security-link{
+	text-decoration: none;
+	border-bottom: 1px solid #FFFFFF;
+}
+.security-link:hover{
+	border-bottom: 1px solid #FF5855;
+	transition: color 0.15s ease-in-out;
+}
+.security-link:active{
+	border-bottom: 1px solid black;
+}
+
+/*----- 2022-23 goals Блок ---------------------------------------*/
+.figure-blue{
+	font-family: 'ALS Sector Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+text-align: right;
+
+color: #5EC7EC;
+}
+
+/*----- FOOTER ---------------------------------------*/
+.footer-span{
+	font-family: 'ALS Sector Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+
+color: #FFFFFF;
+}
+
+.footer-span:hover{
+color: #5EC7EC;
+}
+
+.footer-subspan{
+	font-family: 'ALS Sector Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+
+color: #FFFFFF;
+}
