@@ -27,26 +27,25 @@
 
 .icon-1-1:after {
   content: "\e900";
-  /* color: #5ec7ec; */
-  color: #fff;
+  color: #5ec7ec;
   font-size: 11px;
   padding-left: 10px;
 }
 
 .icon-1-1:hover:after {
-	color: #5ec7ec;
+	color: #fff;
 	transition: color 0.15s ease-in-out;
  }
 
 .icon-2-2:after {
   content: "\e901";
-	color: #fff;
+	color: #5ec7ec;
 	font-size: 11px;
 	padding-left: 10px;
 }
 
 .icon-2-2:hover:after {
-	color: #5ec7ec;
+	color: #fff;
 	transition: color 0.15s ease-in-out;
 
  }
